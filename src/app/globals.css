@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: #07080d;
+  color: #f7f6f3;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure secondary text is bright enough on dark backgrounds */
+p, li, span, label {
+  font-weight: 450;
+}
+
+::selection {
+  background: #c9a15a;
+  color: #07080d;
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #c9a15a;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* ── Button hover visibility ── */
+/* Ensure all ghost/outline buttons show a visible fill on hover */
+a[class*="border"]:hover,
+button[class*="border"]:hover {
+  background-color: rgba(212, 168, 83, 0.10);
+}
+
+/* Ensure dark buttons darken on hover and remain legible */
+a[class*="bg-brass"]:hover,
+button[class*="bg-brass"]:hover {
+  background-color: #b8922e !important;
+  color: #07080d !important;
+}
+
+a[class*="bg-ink"]:hover,
+button[class*="bg-ink"]:hover {
+  background-color: #d4d0c8 !important;
+  color: #07080d !important;
+}
+
+
+.input {
+  width: 100%;
+  border: 1px solid rgba(201, 161, 90, 0.25);
+  background: #0e101a;
+  border-radius: 2px;
+  padding: 0.75rem 1rem;
+  font-size: 0.9375rem;
+  color: #f7f6f3;
+  transition: border-color 0.2s ease;
+}
+
+.input::placeholder {
+  color: #6b7e9a;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #c9a15a;
+}
