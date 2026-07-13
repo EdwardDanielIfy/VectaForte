@@ -16,10 +16,10 @@ export const siteConfig = {
 // will still render but won't navigate anywhere broken.
 export const socialLinks = {
   whatsapp: "https://wa.me/16172220315", // Direct messaging line
-  email: "mailto:intake@vectaforte.com", // Dedicated intake desk
-  instagram: "#", // Placeholder for Instagram account
-  tiktok: "#", // Placeholder for TikTok account
-  facebook: "#", // Placeholder for Facebook account
+  email: "mailto:vectaforte@gmail.com", // Dedicated intake desk
+  instagram: "https://www.instagram.com/vectaforte/?__pwa=1", // Placeholder for Instagram account
+  tiktok: "https://www.tiktok.com/@vectaforte", // Placeholder for TikTok account
+  facebook: "https://www.facebook.com/profile.php?id=61591617972145", // Placeholder for Facebook account
   twitter: "https://x.com/vectaforte_ops",
   telegram: "https://t.me/vectaforte_ops", // Secure messaging channel
 };
