@@ -4,6 +4,7 @@ import "./globals.css";
 import { siteConfig } from "@/lib/config";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingContact from "@/components/FloatingContact";
 
 const sourceSerif = Source_Serif_4({
   variable: "--font-display",
@@ -42,6 +43,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <FloatingContact />
       </body>
     </html>
   );

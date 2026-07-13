@@ -10,12 +10,12 @@ const channels = [
   {
     key: "email" as const,
     label: "Email",
-    body: "For detailed case information or document attachments.",
+    body: "For detailed case information or document attachments or send a direct message.",
   },
   {
     key: "tiktok" as const,
     label: "TikTok",
-    body: "Follow our tracing case analyses and security alerts.",
+    body: "Follow our tracing case analyses and security alerts or send a direct message.",
   },
   {
     key: "facebook" as const,
@@ -26,6 +26,11 @@ const channels = [
     key: "instagram" as const,
     label: "Instagram",
     body: "Follow for updates, or send a direct message.",
+  },
+  {
+    key: "twitter" as const,
+    label: "X / Twitter",
+    body: "Follow updates and public commentary on current cases and security insights / send a direct message.",
   },
   {
     key: "telegram" as const,
