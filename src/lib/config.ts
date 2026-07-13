@@ -15,13 +15,13 @@ export const siteConfig = {
 // Leave as "#" for any channel you haven't set up yet — the button
 // will still render but won't navigate anywhere broken.
 export const socialLinks = {
-  whatsapp: "https://wa.me/16172220315", // Direct messaging line
+  whatsapp: "https://wa.me/19497031845", // Direct messaging line
   email: "mailto:vectaforte@gmail.com", // Dedicated intake desk
   instagram: "https://www.instagram.com/vectaforte/?__pwa=1", // Placeholder for Instagram account
   tiktok: "https://www.tiktok.com/@vectaforte", // Placeholder for TikTok account
   facebook: "https://www.facebook.com/profile.php?id=61591617972145", // Placeholder for Facebook account
-  twitter: "https://x.com/vectaforte_ops",
-  telegram: "https://t.me/vectaforte_ops", // Secure messaging channel
+  twitter: "https://x.com/vectaforte",
+  telegram: "https://t.me/VectaForte", // Secure messaging channel
 };
 
 
