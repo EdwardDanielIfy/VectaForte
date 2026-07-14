@@ -20,7 +20,7 @@ export const socialLinks = {
   instagram: "https://www.instagram.com/vectaforte/?__pwa=1", // Placeholder for Instagram account
   tiktok: "https://www.tiktok.com/@vectaforte", // Placeholder for TikTok account
   facebook: "https://www.facebook.com/profile.php?id=61591617972145", // Placeholder for Facebook account
-  twitter: "https://x.com/vectaforte",
+  twitter: "https://x.com/VectaForte",
   telegram: "https://t.me/VectaForte", // Secure messaging channel
 };
 
